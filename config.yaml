@@ -2,7 +2,7 @@
 # contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
 # 参考https://lucumt.info/ ； https://lucumt.info/
 
-baseURL: "http://localhost:1313/"
+baseURL: "https://flyingeast.netlify.app/"
 title: Warm Wander
 copyright: "© 2025 Thomas Jiang"
 theme: [PaperMod]
