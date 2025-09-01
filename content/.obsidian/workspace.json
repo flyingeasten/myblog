@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/VBA中的错误处理（Error Handling）/VBA中的错误处理（Error Handling）.md",
+                "file": "extras/Templates/My-TP-Enveloppe插件.md",
                 "mode": "source",
                 "source": true
+              },
+              "icon": "lucide-file",
+              "title": "My-TP-Enveloppe插件"
+            }
+          },
+          {
+            "id": "2cd81865b217d148",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/VBA中的错误处理（Error Handling）/VBA中的错误处理（Error Handling）.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
               "title": "VBA中的错误处理（Error Handling）"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -150,13 +165,39 @@
               "icon": "lucide-list",
               "title": "MsgBox函数消息框图标类型 的大纲"
             }
+          },
+          {
+            "id": "a99eecf43ac9d02b",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "ab51aa12dc04eb1d",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "posts/VBA中的错误处理（Error Handling）/VBA中的错误处理（Error Handling）.md"
+              },
+              "icon": "lucide-info",
+              "title": "VBA中的错误处理（Error Handling）的笔记属性"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -166,19 +207,27 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "bases:创建新数据库": false
+      "bases:创建新数据库": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "a61cbc4cf1fbc887",
+  "active": "2cd81865b217d148",
   "lastOpenFiles": [
-    "posts/Git常用命令.md",
     "posts/MsgBox函数消息框图标类型.md",
+    "posts/Git常用命令.md",
+    "posts/DehaoWebSite搭建.md",
+    "posts/emoji-support.md",
+    "extras/Templates/My-TP-Enveloppe插件.md",
+    "archives.md",
+    "posts/VBA中的错误处理（Error Handling）/VBA中的错误处理（Error Handling）.md",
+    "extras/Templates",
+    "extras",
+    "新建文件夹",
     "about.md",
     "posts/markdown-syntax.md",
     "posts/math-typesetting.md",
     "search.md",
     "posts/rich-content.md",
-    "archives.md",
     "posts/markdown-syntax.fa.md",
     "archives.fr.md",
     "search.fr.md"

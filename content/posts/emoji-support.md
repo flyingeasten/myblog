@@ -1,11 +1,12 @@
 ---
 author: "Hugo Authors"
-title: "Emoji Support"
-date: "2019-03-05"
+title: emoji-support
+date: 2025, 09, 244, 9:16:42 上午
 description: "Guide to emoji usage in Hugo"
 tags: ["emoji"]
 ShowToc: false
 ShowBreadCrumbs: false
+lastmod: 2025, 09, 244, 4:41:44 下午
 ---
 
 Emoji can be enabled in a Hugo project in a number of ways.
