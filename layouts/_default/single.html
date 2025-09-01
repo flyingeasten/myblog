@@ -1,0 +1,73 @@
+{{- define "main" }}
+{{ partial "breadcrumbs.html" . }}
+
+<div class="post-heading">
+  <h1 class="post-title">
+    {{ .Title }} {{- if .Draft }}<span class="draft-label">草稿</span>{{- end }}
+  </h1>
+  
+  {{- if .Description }}
+  <p class="post-description">{{ .Description }}</p>
+  {{- end }}
+</div>
+
+{{- if not (.Param "hideMeta") }}
+<div class="post-meta">
+  {{- partial "post_meta.html" . -}}
+  {{- partial "translation_list.html" . -}}
+  
+  <!-- 显示Project属性 -->
+  {{- if .Params.Project }}
+  <div class="project-tags">
+    <span class="meta-icon">📁</span>
+    <span class="meta-label">项目：</span>
+    {{- range .Params.Project }}
+      <span class="project-item">{{ . }}</span>
+    {{- end }}
+  </div>
+  {{- end }}
+  
+  {{- partial "edit_post.html" . -}}
+  {{- partial "post_canonical.html" . -}}
+</div>
+{{- end }}
+
+{{- $isHidden := (.Param "cover.hiddenInSingle") | default (.Param "cover.hidden") | default false }}
+{{- partial "cover.html" (dict "cxt" . "IsSingle" true "isHidden" $isHidden) }}
+
+{{- if (.Param "ShowToc") }}
+{{- partial "toc.html" . }}
+{{- end }}
+
+<div class="post-content">
+  {{- if .Content }}
+    {{- if not (.Param "disableAnchoredHeadings") }}
+      {{- partial "anchored_headings.html" .Content -}}
+    {{- else }}
+      {{ .Content }}
+    {{- end }}
+  {{- end }}
+</div>
+
+{{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
+{{- if .Params.tags }}
+<div class="post-tags">
+  {{- range ($.GetTerms $tags) }}
+  <a href="{{ .RelPermalink }}" class="post-tag">{{ .LinkTitle }}</a>
+  {{- end }}
+</div>
+{{- end }}
+
+{{- if (.Param "ShowPostNavLinks") }}
+{{- partial "post_nav_links.html" . }}
+{{- end }}
+
+{{- if (and site.Params.ShowShareButtons (ne .Params.disableShare true)) }}
+{{- partial "share_icons.html" . -}}
+{{- end }}
+
+{{- if (.Param "comments") }}
+{{- partial "comments.html" . }}
+{{- end }}
+
+{{- end }}{{/* end main */}}

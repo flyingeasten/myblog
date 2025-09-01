@@ -51,6 +51,7 @@ languages:
       category: categories
       tag: tags
       series: series
+      Project : "projects"  # 新增 Project 分类
     menu:     #菜单配置#
       main:
         - name: 首页

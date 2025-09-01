@@ -1,0 +1,12 @@
+/* 美化博客文章中Project属性的显示样式 */
+.project-meta {
+  margin: 1rem 0;
+  color: #666;
+}
+.project-item {
+  display: inline-block;
+  margin-right: 0.5rem;
+  padding: 0.2rem 0.5rem;
+  background: #f5f5f5;
+  border-radius: 4px;
+}
