@@ -12,7 +12,6 @@ categories:
   - 技术
 cover:
   image: pics/xxx.webp
-  caption: 图片描述x
 share: true
 dir: posts/VBA中的错误处理（Error Handling）
 lastmod: 2024-08-14 10:15:06 +08:00
