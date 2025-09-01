@@ -3,9 +3,6 @@ title: "MsgBox函数消息框图标类型"
 date: 2025-08-31T11:06:05.367Z
 draft: false
 tags: []
----
-
----
 Project: ["VBA学习"]
 ---
 VBA 中 `MsgBox` 函数用于指定消息框图标类型的常量如下，

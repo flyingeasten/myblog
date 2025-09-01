@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e682a89947bdc004",
+        "id": "a2802f51cb996e2b",
         "type": "tabs",
         "children": [
           {
-            "id": "ac7b4c3e9fb6b3a2",
+            "id": "a61cbc4cf1fbc887",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "posts/MsgBox函数消息框图标类型.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "MsgBox函数消息框图标类型"
+              "title": "新标签页"
             }
           }
         ]
@@ -169,10 +165,10 @@
       "bases:创建新数据库": false
     }
   },
-  "active": "ac7b4c3e9fb6b3a2",
+  "active": "a61cbc4cf1fbc887",
   "lastOpenFiles": [
-    "about.md",
     "posts/MsgBox函数消息框图标类型.md",
+    "about.md",
     "posts/markdown-syntax.md",
     "posts/math-typesetting.md",
     "search.md",
