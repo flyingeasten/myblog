@@ -4,39 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "a2802f51cb996e2b",
+        "id": "5d40cd8e4b13add8",
         "type": "tabs",
         "children": [
           {
-            "id": "a61cbc4cf1fbc887",
+            "id": "d5db39b303ffc4db",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "extras/Templates/My-TP-Enveloppe插件.md",
-                "mode": "source",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "My-TP-Enveloppe插件"
-            }
-          },
-          {
-            "id": "2cd81865b217d148",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "posts/VBA中的错误处理（Error Handling）/VBA中的错误处理（Error Handling）.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "VBA中的错误处理（Error Handling）"
+              "title": "新标签页"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 226.50260543823242
+    "width": 226.50260543823242,
+    "collapsed": true
   },
   "right": {
     "id": "11550463aa782dca",
@@ -185,11 +167,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "posts/VBA中的错误处理（Error Handling）/VBA中的错误处理（Error Handling）.md"
-              },
+              "state": {},
               "icon": "lucide-info",
-              "title": "VBA中的错误处理（Error Handling）的笔记属性"
+              "title": "笔记属性"
             }
           }
         ],
@@ -197,7 +177,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 227.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -211,15 +191,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "2cd81865b217d148",
+  "active": "d5db39b303ffc4db",
   "lastOpenFiles": [
-    "posts/MsgBox函数消息框图标类型.md",
-    "posts/Git常用命令.md",
-    "posts/DehaoWebSite搭建.md",
-    "posts/emoji-support.md",
     "extras/Templates/My-TP-Enveloppe插件.md",
-    "archives.md",
+    "posts/Git 代理配置与多账号管理完全指南.md",
+    "posts/MsgBox函数消息框图标类型.md",
+    "posts/DehaoWebSite搭建.md",
     "posts/VBA中的错误处理（Error Handling）/VBA中的错误处理（Error Handling）.md",
+    "posts/emoji-support.md",
+    "archives.md",
     "extras/Templates",
     "extras",
     "新建文件夹",
