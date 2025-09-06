@@ -2,7 +2,7 @@
 Project:
   - VBA学习
 title: VBA中的错误处理（Error Handling）
-date: 2025-09-01 11:08:57 +08:00
+date: "2025-09-04"
 summary: 博客吃灰，回来修整
 tags:
   - blog
@@ -14,7 +14,7 @@ cover:
   image: pics/xxx.webp
 share: true
 dir: posts/VBA中的错误处理（Error Handling）
-lastmod: 2024-08-14 10:15:06 +08:00
+lastmod: "2025-09-06"
 ---
 
 

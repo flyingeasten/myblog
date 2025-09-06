@@ -1,9 +1,9 @@
 ---
-title: Git代理配置与多账号管理完全指南
-date: 2025-09-244, 10:07:42 上午
+title: Git 代理配置与多账号管理完全指南
+date: "2025-09-04"
 draft: true
 tags: []
-lastmod: 2025-09-245, 2:36:54 下午
+lastmod: "2025-09-06"
 categories:
 ---
 
