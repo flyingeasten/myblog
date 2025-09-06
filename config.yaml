@@ -46,7 +46,7 @@ languages:
   zh:
     languageName: "中文"
     weight: 1
-    title: "Warm Wander"
+    title: "Mild Wanders Rambles"
     taxonomies:
       category: categories
       tag: tags
